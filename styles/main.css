@@ -23,6 +23,7 @@ h1 {
   justify-content: center;
 }
 
+
 h2{
   font-family: savateregular;
   display: flex;
@@ -39,6 +40,13 @@ h3{
   justify-content: center;
   align-items: center;
   font-size: 24px;
+}
+
+h4 {
+  font-family: savateregular;
+  font-size: 55px;
+  display: flex;
+
 }
 
 #enonce {
@@ -160,7 +168,113 @@ header {
 
 }
 
+.boutonpseudo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.tonpseudo {
+
+  color: grey;
+  font-size: 20px;
+  background-color: white;
+  text-align: center;
+  border-color: #6dbce8;
+  font-family: savateregular;
+  width: 200px;
+  height: 60px;
+  border-radius: 20px;
+  border-width: 2px;
+  text-decoration: none;
+}
+
+#trait_dessus {
+height: 1pt;
+width: 30%;
+isplay: flex;
+}
+
+.filet {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.graphiquecontainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.graphiquecontainer2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+
+.txt p{
+  margin-top: 70px;
+  margin-left: 306px;
+}
+
+.graphique {
+  width: 50%;
+  height: auto;
+  margin-top: 10px;
+}
+
+.txt2 p{
+  margin-top: 70px;
+  margin-left: 306px;
+}
+
+.graphique2 {
+  width: 50%;
+  height: auto;
+  margin-top: 10px;
+}
+
+.boutonmdp {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.tonmdp {
+
+  color: grey;
+  font-size: 20px;
+  background-color: white;
+  text-align: center;
+  border-color: #6dbce8;
+  font-family: savateregular;
+  width: 200px;
+  height: 60px;
+  border-radius: 20px;
+  border-width: 2px;
+  text-decoration: none;
+}
+
 .imageco {
+  width: 20%;
+  height: auto;
+  margin-top: 70px;
+}
+
+.containerimgco {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.imageconnexion {
   width: 20%;
   height: auto;
   margin-top: 40px;
@@ -176,7 +290,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 50px;
+  margin-top: 70px;
 
 }
 
@@ -193,6 +307,33 @@ header {
   text-decoration: none;
 }
 
+.boutonconnexion {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+
+}
+
+.mdp p {
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.boutonconnexion input {
+  color: black;
+  font-size: 20px;
+  background-color: white;
+  border-color: #6dbce8;
+  font-family: savateregular;
+  width: 200px;
+  height: 60px;
+  border-radius: 20px;
+  border-width: 2px;
+  text-decoration: none;
+}
 
 .bouton2 {
   display: flex;
