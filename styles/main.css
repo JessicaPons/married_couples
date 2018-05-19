@@ -21,8 +21,6 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 80px;
-  margin-bottom: 130px;
 }
 
 h2{
@@ -43,15 +41,14 @@ h3{
   font-size: 24px;
 }
 
-.enonce {
+#enonce {
   flex: 1;
   font-size: 20px;
 
 }
 
-.enonce p {
-  margin-right: 30px;
-  margin-left: 30px;
+#enonce p {
+  margin: 30px 0 30px;
 }
 
 .herbeshautes {
@@ -200,9 +197,7 @@ header {
 
 .section-content-block {
   padding: 2em;
-
 }
-
 
 #proposition{
   display: flex;
@@ -214,25 +209,12 @@ header {
 .wrapper {
   font-family: savateregular;
   display: flex;
-  justify-content: space-around;
-  padding-bottom: 5em;
-  padding-left: 3em;
-  padding-right: 3em;
 }
 
 .right-column {
   display:flex;
-  align-items: center;
-justify-content: center;
-padding-right: 12em;
-
-
 }
 
 .left-column {
-display: flex;
-align-items:center;
-justify-content: center;
-padding-left: 12em;
-
+  display: flex;
 }
