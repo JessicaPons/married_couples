@@ -41,13 +41,13 @@ h3{
   font-size: 24px;
 }
 
-#enonce {
+.enonce {
   flex: 1;
   font-size: 20px;
-
+  margin: 0px 30px 0px 30px;
 }
 
-#enonce p {
+.enonce p {
   margin: 30px 0 30px;
 }
 
@@ -62,6 +62,7 @@ h3{
   flex: 1;
   align-items: flex-end;
   justify-content: center;
+  margin: 0px 70px 0px 50px;
 }
 
 .videocontainer {
@@ -73,6 +74,7 @@ h3{
 
 .imageriviere {
   display: flex;
+  flex: 1;
   width: 90%;
   height: auto;
 }
@@ -157,7 +159,14 @@ header {
   border-radius: 20px;
   border-width: 2px;
   text-decoration: none;
+}
 
+.bouton input:hover {
+  background-color: #6DBBE8 !important;
+}
+
+.bouton2 input:hover {
+  background-color: #6DBBE8 !important;
 }
 
 .imageco {
@@ -229,11 +238,6 @@ header {
   flex-direction: row;
 }
 
-
-.section-content-block {
-  padding: 2em;
-}
-
 #proposition{
   display: flex;
   justify-content:center;
@@ -241,15 +245,82 @@ header {
   padding-right: 10em;
   padding-left: 8em;
 }
-.wrapper {
+
+/*
+  A moi
+*/
+
+button:focus, input:focus {
+  outline: 0;
+}
+
+.remember-enigma-button {
+  position: absolute; left: 0; top: 200px;
+  width: 50px;
+  height: 40px;
+  background: #6DBBE8;
+  display: flex;
+  justify-content: center;
   font-family: savateregular;
-  display: flex;
+  font-size: 40px;
+  line-height: 1px;
+  padding-bottom: 5px;
 }
 
-.right-column {
-  display:flex;
+.remember-enigma {
+  position: absolute; left: 0; top: 238px;
+  background: #6DBBE8;
+  border-radius: 5px;
+  width: 450px;
+}
+.remember-enigma p {
+  font-size: 24px;
+  padding: 10px;
 }
 
-.left-column {
+.title-enigma-container {
   display: flex;
+  flex-direction: column;
+}
+
+.title-enigma {
+  margin-bottom: 10px;
+}
+.direction-enigma {
+  margin-top: 0px;
+}
+
+.propsition-enigma-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  margin: 50px 10px;
+}
+
+.proposition-enigma-content-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.bouton-enigma {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+.bouton-enigma button {
+  color: black;
+  font-size: 24px;
+  background-color: white;
+  border-color: #6dbce8;
+  font-family: savateregular;
+  width: 400px;
+  border-radius: 20px;
+  border-width: 2px;
+  padding: 10px;
+  text-decoration: none;
+}
+.bouton-enigma button:hover {
+  background-color: #6DBBE8 !important;  
 }
