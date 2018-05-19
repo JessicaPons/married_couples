@@ -7,7 +7,6 @@
          url('savate-regular-webfont.svg#savateregular') format('svg');
     font-weight: normal;
     font-style: normal;
-<<<<<<< HEAD
 }
 
 p {
@@ -236,25 +235,4 @@ align-items:center;
 justify-content: center;
 padding-left: 12em;
 
-=======
-
-}
-
-.logotype {
-  height: 110px;
-  width: 110px;
-}
-
-.menu a {
-  font-size: 24px;
-  font-family: savateregular;
-  text-decoration: none;
-  color: black;
-}
-
-.barre {
-  position: relative;
-  top: 0;
-  margin-bottom: 20px;
->>>>>>> 48abd71d1806238b7139ab732f56584dc2f9ee9f
 }
